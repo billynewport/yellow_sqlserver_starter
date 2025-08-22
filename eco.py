@@ -28,8 +28,8 @@ from datasurface.platforms.yellow.assembly import GitCacheConfig, YellowExternal
 
 KUB_NAME_SPACE: str = "ns-yellow-starter"  # This is the namespace you want to use for your kubernetes environment
 GH_REPO_OWNER: str = "billynewport"  # Change to your github username
-GH_REPO_NAME: str = "yellow_starter"  # Change to your github repository name containing this project
-GH_DT_REPO_NAME: str = "yellow_starter"  # For now, we use the same repo for the transformer
+GH_REPO_NAME: str = "yellow_sqlserver_starter"  # Change to your github repository name containing this project
+GH_DT_REPO_NAME: str = "yellow_sqlserver_starter"  # For now, we use the same repo for the transformer
 
 
 def createPSP() -> YellowPlatformServiceProvider:
